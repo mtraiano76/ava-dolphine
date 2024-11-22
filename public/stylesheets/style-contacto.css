@@ -1,0 +1,68 @@
+/*CONTACTO*/
+
+form.formulario {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(141, 1, 48);
+    padding: 30px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  form.formulario h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: rgb(216, 218, 219);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(90, 127, 163);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+  
+  form.formulario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  input {
+    width: 100%;
+    background: rgb(216, 218, 219);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(90, 127, 163);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:rgb(82, 82, 82);
+  }
+  
+  form.formulario a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  form.formulario textarea {
+    width: 100%;
+    height: 150px;
+  }
+  
+  #text {
+    text-align: center;
+  }
+  
