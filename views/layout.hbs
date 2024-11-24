@@ -11,23 +11,33 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.tailwindcss.com" rel="stylesheet">
   <link rel='stylesheet' href='/stylesheets/style.css' />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-  <h1>AVA - DOLPHINE</h1>
-  <header>
-    <nav>
-      <!--<label for="check" class="bar-btn">
-        <i class="fa-solid fa-bars"></i>
-      </label>-->
-      <ul class="nav-menu">
-        <li><a href="/" class="nav-enlace">Home</a></li>
-        <li><a href="/servicios" class="nav-enlace">Services</a></li>
-        <li><a href="/somos" class="nav-enlace">About Us</a></li>
-        <li><a href="/contacto" class="nav-enlace">Contact</a></li>
-      </ul>
-    </nav>
+<body class="absolute z-10 w-full border-b border-black/5 dark:border-white/5 lg:border-transparent">
+  <header class="relative flex flex-wrap items-center justify-between gap-6 py-3 md:gap-0 md:py-4">
+    <section class="relative z-20 flex w-full justify-between md:px-0 lg:w-max">
+      <a href="/#home" aria-label="logo" class="flex items-center space-x-2">
+          <span class="text-2xl font-bold text-gray-900  bg-image bg-cover bg-no-repeat bg-top-left px-24 py-4" style="background-image: url('/images/logo.png')">
+          </span>
+        </a>
+    </section>
+    <div id="navlinks" class="absolute top-full left-0 z-20 w-full origin-top-right translate-y-1 scale-90 flex-col flex-wrap justify-end gap-6 rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 transition-all duration-300 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none lg:visible lg:relative lg:flex lg:w-7/12 lg:translate-y-0 lg:scale-100 lg:flex-row lg:items-center lg:gap-0 lg:border-none lg:bg-transparent lg:p-0 lg:shadow-none">
+      <div class="w-full text-gray-600">
+        <ul class="flex flex-col gap-6 tracking-wide lg:flex-row lg:gap-0 lg:text-sm w-full">
+          <li class="flex-1"><a href="/" class="nav-enlace hover:text-primary block transition p-4">Home</a></li>
+          <li class="flex-1"><a href="/servicios" class="nav-enlace hover:text-primary block transition p-4">Services</a></li>
+          <li class="flex-1"><a href="/somos" class="nav-enlace hover:text-primary block transition p-4">About Us</a></li>
+          <li class="flex-1">
+            <a href="/contacto" class="m-1 p-4 block transition cta">
+              contactanos
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </header>
   <main>
     {{{body}}}

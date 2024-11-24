@@ -84,6 +84,16 @@ a.nav-enlace {
   font-weight: bold;
 }
 
+.cta {
+  border-radius: 20px;
+  background-color: rgb(141, 1, 48);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 
 p {
   color: black;
