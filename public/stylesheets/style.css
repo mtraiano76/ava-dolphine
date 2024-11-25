@@ -121,21 +121,13 @@ h6{
   margin-bottom: -15px;
 }
 footer {
-  
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 15px;
-  /*background-color: rgb(1, 129, 184);*/
-  background: linear-gradient(to right, rgb(141, 1, 48), rgb(63, 63, 63));
-  position: fixed;
-  /*hacemos que el footer quede siempre abajo*/
-  left: 0px;
-  bottom: 40px;
+  background-color: rgb(110, 0, 37);
   width: 100%;
-  height: 35px;
-
 }
 
 footer .principal {
@@ -272,3 +264,10 @@ footer ul li a {
   color: rgb(141, 1, 48);
 }
 
+.h-95 {
+  height: 95%;
+}
+
+.h-85 {
+  height: 85%;
+}
