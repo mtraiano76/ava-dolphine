@@ -1,5 +1,14 @@
-.backgraund {
-  background: #8D0130;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFEDBC, #9f0136) !important;  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFEDBC, #9d0035) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.background {
+  /*
+  background: #8D0130;  
+  background: -webkit-linear-gradient(to right, #FFEDBC, #9f0136) !important;  
+  background: linear-gradient(to right, #FFEDBC, #9d0035) !important; 
+  */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.837) 10%, rgba(255, 255, 255, 0.55) 50%, rgba(255, 255, 255, 0) 60%), 
+    url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+
 }

@@ -271,3 +271,28 @@ footer ul li a {
 .h-85 {
   height: 85%;
 }
+
+.min-h-85 {
+  min-height: 85%;
+}
+
+.min-h-85 {
+  min-height: 85vh;
+}
+
+.text-11xl {
+  font-size: 8.6rem;
+}
+
+.background-image {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.837), rgba(255, 255, 255, 0.8)), 
+    url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.positon-cta {
+  position: absolute;
+  right: calc(3vw * 4);
+}
